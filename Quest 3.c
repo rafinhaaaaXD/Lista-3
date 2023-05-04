@@ -17,7 +17,7 @@ int main()
     PtrA = malloc(sizeof(Taluno));
 
     if(PtrA == NULL){
-      printf("ERRO!!!");
+      printf("ERRO!!! Falha na alocação de memória!\n");
       exit(-1);
     }
 
